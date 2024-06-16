@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <title>
+             first
+         </title>
+         <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+            body{
+                display: flex;
+                align-items: center;
+                justify-content:center;
+            }
+            .container{
+                height: 500px;
+                width: 500px;
+                border: 2px solid blueviolet;
+                background-color: black;
+                align-items: center;
+                display: flex;
+                margin-top: 100px;
+                justify-content: center;
+            }
+            .circle1{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(21, 229, 149);
+            }
+            .circle2{
+                height:200px;
+                width: 200px;
+                background-color: blue;
+                margin-left: 40px;
+            }
+            .circle1:hover{
+                transition: all 1.2s ease-in-out;
+                border-radius: 200px;
+                cursor: pointer;
+            }
+            .circle2:hover{
+                border-radius: 200px;
+                cursor: pointer;
+            }
+            .circle:hover{
+                border-radius:200px;
+                transition: all 1s ease-in-out;
+                   }
+         </style>
+     </head>
+       <body>
+             <div class="container">
+                 <div class="circle1"></div>
+                 <div class="circle2"></div>
+             </div>
+       </body>
+</html>
